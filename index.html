@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="vender/jquery-3.3.1.min.js">
+</head>
+<body>
+	<div class="main">
+	<div class="wrepper">
+	<div class="Headline">
+		<h1 class="title js-fadeInRight">前端設計課程</h1>
+		<h2 class="subtitle js-fadeInRight">Front-End Web Developer Usage</h2>
+    </div>
+    <div class="content">
+    	<div class="row">
+    		<div class="col-1-3 HTML js-fadeInUp">
+    			<h3>HTML</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ullam perspiciatis cupiditate iure cum voluptate id commodi sequi laboriosam suscipit ipsum voluptatibus eveniet illum, tempora nulla ab natus. Expedita, ullam!</p>
+    		</div>
+    		<div class="col-1-3 CSS js-fadeInUp">
+    			<h3>CSS</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero dolores odio, alias, ullam nesciunt praesentium! Natus eligendi, doloribus alias, nisi cupiditate vitae suscipit ipsa nostrum expedita velit minima, sint ea.</p>
+    		</div>
+    		<div class="col-1-3 JavaScript js-fadeInUp ">
+    			<h3>JavaScript</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minus possimus pariatur, asperiores maiores ducimus beatae inventore nobis vitae voluptatibus quisquam accusantium! Eum dicta illo voluptate repudiandae obcaecati est explicabo.</p>
+    		</div>
+    		
+    </div>
+        
+	</div>
+	</div>
+</body>
+<script src="vender/scrollreveal-master/scrollreveal.min.js"></script>
+<script type="text/javascript">
+	//Reveal
+window.sr = ScrollReveal({
+        mobile: false,
+        duration: 800,
+        distance: '50px',
+      
+    });
+  // reset: true
+    sr.reveal('.js-fadeInUp', {
+    
+    });
+    sr.reveal('.js-fadeInRight', {
+        origin: 'right'
+    });
+    sr.reveal('.js-fadeInLeft', {
+        origin: 'left'
+    });
+    sr.reveal('.service-group .js-fadeInUp', {
+        duration: 700
+    }, 100);
+
+
+</script>
+</html>
+
+
+
+
+
+
+
